@@ -1,0 +1,24 @@
+# 排除虚拟环境
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 排除日志和输出文件
+scan_log.txt
+scan_summary.log
+ExportedCSV/
+
+# 排除系统文件
+.DS_Store
+Thumbs.db
+
+# 排除Git相关
+.git/
+.gitignore
+
+# 排除环境变量文件
+.env
+.env.*
